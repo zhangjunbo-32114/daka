@@ -48,6 +48,24 @@ datas4 = [{
     "jsonisolatechangeinfo": 0,
     "latitude": 38.8664,
     "longitude": 121.5295,
+},
+{
+    "jsonnumber": "1120201469",
+    "jsonname": "张竣博",
+    "jsonclass": "2020级硕士研究生中队",
+    "morning": "36.2℃",
+    "afternoon": "36.2℃",
+    "night": "36.2℃",
+    "jsonbody": 1,
+    "jsonbodychangeinfo": "",
+    "textarea": "学校",
+    "textprople": "同学",
+    "jsontouch": 1,
+    "jsontouchchangeinfo": 0,
+    "jsonisolate": 1,
+    "jsonisolatechangeinfo": 0,
+    "latitude": 38.8664,
+    "longitude": 121.5295,
 }
 ]
 
