@@ -1,9 +1,14 @@
 name: 'Avoid workflow being suspended'
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  watch:
+    types: started
   schedule:
-    - cron: '0 0 0/1 * *'
+    - cron: "0 0/4 * * *"
 
 jobs:
   auto_renew:
