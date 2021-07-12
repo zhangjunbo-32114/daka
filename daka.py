@@ -50,7 +50,9 @@ datas4 = [{
     "longitude": 121.5295,
 }
 ]
-datas.append(datas4)
+
+for i in range(len(datas4)):
+    datas.append(datas4[i])
 
 for data in datas:
     url = 'https://www.dmuisatc.com/DMU_WEB/student_5/info/?'
