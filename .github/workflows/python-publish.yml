@@ -38,7 +38,7 @@ jobs:
     - name: Checkin
       run: |
         python daka.py
-        echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.log
+        echo `date +"%Y-%m-%d %H+8:%M:%S"` begin > time.log
         
     - name: 'Avoid Github Workflow being suspended'
       run: echo $(cat /proc/sys/kernel/random/uuid) > UUID.txt
