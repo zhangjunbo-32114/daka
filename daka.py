@@ -14,12 +14,12 @@ headers = {
 
 datas = []
 datas4 = {
-    "jsonnumber": "1120200312",
-    "jsonname": "张浩",
+    "jsonnumber": "1120200298",
+    "jsonname": "汪广鑫",
     "jsonclass": "2020级硕士研究生中队",
-    "morning": "36.0℃",
-    "afternoon": "36.0℃",
-    "night": "36.0℃",
+    "morning": "36.2℃",
+    "afternoon": "36.2℃",
+    "night": "36.2℃",
     "jsonbody": 1,
     "jsonbodychangeinfo": "",
     "textarea": "学校",
