@@ -13,7 +13,7 @@ headers = {
 }
 
 datas = []
-datas4 = {
+datas4 = [{
     "jsonnumber": "1120200298",
     "jsonname": "汪广鑫",
     "jsonclass": "2020级硕士研究生中队",
@@ -30,7 +30,26 @@ datas4 = {
     "jsonisolatechangeinfo": 0,
     "latitude": 38.8664,
     "longitude": 121.5295,
+},
+{
+    "jsonnumber": "1120200306",
+    "jsonname": "武文文",
+    "jsonclass": "2020级硕士研究生中队",
+    "morning": "36.2℃",
+    "afternoon": "36.2℃",
+    "night": "36.2℃",
+    "jsonbody": 1,
+    "jsonbodychangeinfo": "",
+    "textarea": "学校",
+    "textprople": "同学",
+    "jsontouch": 1,
+    "jsontouchchangeinfo": 0,
+    "jsonisolate": 1,
+    "jsonisolatechangeinfo": 0,
+    "latitude": 38.8664,
+    "longitude": 121.5295,
 }
+]
 datas.append(datas4)
 
 for data in datas:
