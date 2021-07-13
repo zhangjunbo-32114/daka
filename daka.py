@@ -19,7 +19,7 @@ datas4 = [
     "jsonname": "张竣博",
     "jsonclass": "2020级硕士研究生中队",
     "morning": "36.2℃",
-    "afternoon": "36.1℃",
+    "afternoon": "36.2℃",
     "night": "36.2℃",
     "jsonbody": 1,
     "jsonbodychangeinfo": "",
