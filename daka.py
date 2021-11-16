@@ -4,7 +4,7 @@ import json
 
 url = 'https://www.dmuisatc.com/DMU_WEB/student_5/info/?'
 headers = {
-    'Host': 'www.dmuisatc.com',
+    'Host': 'www.informationofdum.com',
     'Connection': 'keep-alive',
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 MicroMessenger/7.0.9.501 NetType/WIFI MiniProgramEnv/Windows WindowsWechat',
     'content-type': 'application/json',
@@ -38,7 +38,7 @@ for i in range(len(datas4)):
     datas.append(datas4[i])
 
 for data in datas:
-    url = 'https://www.dmuisatc.com/DMU_WEB/student_5/info/?'
+    url = 'www.informationofdum.com/DMU_WEB/student_5/info/?'
     url = url + urlencode(data)
     print(url)
     daka = requests.get(url, headers=headers)
