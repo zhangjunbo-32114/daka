@@ -38,7 +38,7 @@ for i in range(len(datas4)):
     datas.append(datas4[i])
 
 for data in datas:
-    url = 'https://www.dmuisatc.com.com/DMU_WEB/student_5/info/?'
+    url = 'www.dmuisatc.com.com/DMU_WEB/student_5/info/?'
     url = url + urlencode(data)
     print(url)
     daka = requests.get(url, headers=headers)
